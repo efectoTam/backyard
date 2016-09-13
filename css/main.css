@@ -1,0 +1,138 @@
+/*Inicio header*/
+
+.logo{
+	width: 179px;
+	height: 50px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+header nav{
+	overflow: hidden;
+	width: 300px;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+header nav ul{
+	overflow: hidden;
+	list-style: none;
+	margin-right: 0px;
+}
+
+header nav ul li{
+	float:left;
+	margin: 0px 0px;
+}
+
+header nav ul li a{
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Courgette";
+	font-size: 20px;
+}
+
+header nav ul li a:hover{
+	text-decoration: underline;
+}
+
+/*Fin header*/
+
+/*Inicio section*/
+
+.fila2{
+	background-color: #2C8223;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+h1{
+	margin-top: 2%;
+	color: #ffffff;
+	font-size: 35px;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.texto{
+	margin-top: 5%;
+	color: #ffffff;
+}
+
+form{
+	width: 200px;
+	background-color: #B9B9B9;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+
+h2{
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 5px;
+}
+
+input{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.boton{
+	background-color: #2C8223;
+	color: #ffffff;
+	border: #2C8223;
+}
+
+/*Fin section*/
+
+/*Inicio footer*/
+
+.fila3{
+	height: 200px;
+}
+
+/*Fin footer*/
+
+/*CSS responsive*/
+
+@media (min-width: 535px) and (max-width: 824px){
+	/*Inicio header*/
+
+	.todoellogo{
+		width: 50%;
+	}
+
+	.todoelnav{
+		width: 50%;
+	}
+
+	.todoeltexto{
+		width: 100%;
+	}
+
+	.texto{
+		text-align: center;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	.fila1,.fila2,.fila3{
+		width: 700px;
+	}
+
+	.container{
+		width: 670px;
+	}
+
+	form{
+		margin-left: 180px;
+	}
+
+}
